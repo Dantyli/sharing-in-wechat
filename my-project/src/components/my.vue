@@ -118,7 +118,7 @@
                     wx.onMenuShareAppMessage({
                         title: '多美康商城',
                         desc: '拆红包，共幸运',
-                        link: 'https://m.bonahe.com/dmk-mall/activity/share-middle.html,
+                        link: 'https://m.bonahe.com/dmk-mall/activity/share-middle.html',
                         //imgUrl: 'http://demo.open.weixin.qq.com/jssdk/images/p2166127561.jpg',
                         trigger: function (res) {
                         },
@@ -134,7 +134,7 @@
                     });
                     wx.onMenuShareTimeline({
                         title: '多美康商城',
-                        link: 'https://m.bonahe.com/dmk-mall/activity/share-middle.html,
+                        link: 'https://m.bonahe.com/dmk-mall/activity/share-middle.html',
                         //imgUrl: 'http://demo.open.weixin.qq.com/jssdk/images/p2166127561.jpg',
                         trigger: function (res) {
                         },
