@@ -104,7 +104,7 @@
                    let signature=res.data.signature
                    wx.config({
                        debug: false, 
-                        appId: 'wxdca12192ad9e6bcf', 
+                        appId: '公众号的appid', 
                         timestamp: timestamp, // 必填，生成签名的时间戳
                         nonceStr: nonceStr, // 必填，生成签名的随机串
                         signature: signature,// 必填，签名，见附录1
@@ -118,7 +118,7 @@
                     wx.onMenuShareAppMessage({
                         title: '多美康商城',
                         desc: '拆红包，共幸运',
-                        link: 'https://m.bonahe.com/dmk-mall/activity/share-middle.html?puid='+localStorage.getItem('userd')+'&arid='+localStorage.getItem('arid')+'&prid='+localStorage.getItem('prid'),
+                        link: 'https://m.bonahe.com/dmk-mall/activity/share-middle.html,
                         //imgUrl: 'http://demo.open.weixin.qq.com/jssdk/images/p2166127561.jpg',
                         trigger: function (res) {
                         },
@@ -134,7 +134,7 @@
                     });
                     wx.onMenuShareTimeline({
                         title: '多美康商城',
-                        link: 'https://m.bonahe.com/dmk-mall/activity/share-middle.html?puid='+localStorage.getItem('userd')+'&arid='+localStorage.getItem('arid')+'&prid='+localStorage.getItem('prid'),
+                        link: 'https://m.bonahe.com/dmk-mall/activity/share-middle.html,
                         //imgUrl: 'http://demo.open.weixin.qq.com/jssdk/images/p2166127561.jpg',
                         trigger: function (res) {
                         },
